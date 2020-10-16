@@ -1,11 +1,11 @@
 <nav>
     <ul>
         <li>
-            <a href="./home.php">Home</a>
+            <a href="./web.php?action=home&nombre=usuario">Home</a>
         </li>                
 
         <li>
-            <a href="?action=login">Autentificar</a>
+            <a href="/login.php">Autentificar</a>
         </li>
         <li>
             <a href="?action=registro">Registro</a>

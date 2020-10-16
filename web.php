@@ -11,11 +11,14 @@ else $action = "home";
 
 switch($action) {
     case "home":
-        $central = "/home.php";
+        $central = "/includes/home.php";
+        break;
+    case "login":
+        $central = "/login.php";
         break;
     default:
         $data["error"] = "Accion no permitida";
-        $central = "/home.php";
+        $central = "/includes/home.php";
 
 }
 

@@ -3,10 +3,6 @@
     <head>
        	<title>Acceso a Jabones SA</title>
 
-    <!-- <?php include 'includes/styles.php' ?> -->
-    
-    <!-- estilo login -->
-    <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/estilos-login.css" /> -->
 
     </head>
     <body id="page-top">
