@@ -6,7 +6,9 @@
 
     </head>
     <body id="page-top">
-        <!-- Nav Bar -->
+    <!-- header Bar -->
+    <?php include(dirname(__FILE__)."/includes/header.php");?>
+    <?php include(dirname(__FILE__)."/includes/menu.php");?>
 
         <!-- Counter Section -->
         <section class="course">
@@ -93,6 +95,7 @@
         </section>
 
         <!-- Footer Section -->
-
+        <?php include(dirname(__FILE__)."/includes/footer.php");?>
+        
     </body>
 </html>

@@ -16,7 +16,7 @@ CREATE TABLE `Productos` (
 
 --
 -- Volcado de datos para la tabla `Productos`
---
+-- preguntar como meter una imagen
 
 INSERT INTO `Productos` (`id_producto`, `nombre`, `imagen`, `nombreimagen`) VALUES
 (1, 'Jabon de manos', 'jabon_manos.jpg', 'jabon_hacendaño');

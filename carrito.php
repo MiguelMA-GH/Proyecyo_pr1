@@ -5,9 +5,6 @@
 
     <!-- <?php include 'includes/styles.php' ?> -->
     
-    <!-- menu Bar -->
-    <!--    <?php include 'includes/menu.php' ?> -->
-    
     <!-- estilo login -->
     <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/frontend/css/estilos-login.css" /> -->
 
@@ -15,7 +12,8 @@
     <body id="page-top">
     
     <!-- header Bar -->
-    <!--    <?php include 'includes/header.php' ?> -->
+    <?php include(dirname(__FILE__)."/includes/header.php");?>
+    <?php include(dirname(__FILE__)."/includes/menu.php");?>
 
        <!-- Login Section -->
         <section>
@@ -26,7 +24,7 @@
 
 
     <!-- Footer Section -->
-    <!-- <?php include 'includes/footer.php' ?> -->
+    <?php include(dirname(__FILE__)."/includes/footer.php");?>
 
     </body>
 </html>
