@@ -1,7 +1,7 @@
 <nav>
     <ul>
         <li>
-            <a href="./portal.php?action=home&nombre=usuario">Home</a>
+            <a href="./home.php">Home</a>
         </li>                
 
         <li>

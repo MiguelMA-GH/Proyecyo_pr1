@@ -1,0 +1,4 @@
+<?php
+print("BIENVENIDO A LA MEJOR WEB SOBRE JABONES QUE EXISTE");
+print "\nFIN";
+?>
